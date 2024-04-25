@@ -1,0 +1,203 @@
+.bgimg-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://www.unitec.mx/hs-fs/hubfs/01.UNITEC/oferta-academica/licenciaturas/imagen_banner_home_claro.webp?width=1280&name=imagen_banner_home_claro.webp");
+  min-height: 780px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #be985f, #b48a4c, #fbc068);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-two {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev {
+  color: #fbc068; /* Cambia el color de la flecha izquierda */
+  font-size: 4px; /* Cambia el tamaño de la flecha izquierda */
+}
+
+.swiper-button-next {
+  color: #fbc068; /* Cambia el color de la flecha derecha */
+  font-size: 4px; /* Cambia el tamaño de la flecha derecha */
+}
+
+/* Estilos para los dots de paginación */
+.swiper-pagination {
+  bottom: 10px; /* Ajusta la posición vertical de los dots */
+}
+
+.swiper-pagination-bullet {
+  background-color: #fbc068; /* Cambia el color de los dots */
+  width: 10px; /* Cambia el ancho de los dots */
+  height: 10px; /* Cambia la altura de los dots */
+  margin: 0 5px; /* Ajusta el espacio entre los dots */
+}
+
+.image-container {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.hover-opacity {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(251, 192, 104, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 99999;
+}
+
+.testimony-container {
+  max-height: 150px; /* Altura máxima del contenedor */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+}
+
+.container .text-contact,
+.container .icon {
+  transition: color 0.3s ease;
+}
+
+.container:hover .text-contact,
+.container:hover .icon {
+  color: #fbc068;
+}
+
+.wrp {
+  width: 600px;
+  height: 450px;
+  background: #ccc;
+  overflow: auto;
+}
+
+.cols {
+  position: relative;
+  width: 450px;
+  margin: 5px auto;
+  -moz-column-width: 150px;
+  -webkit-column-width: 150px;
+  column-width: 150px;
+  -moz-column-gap: 0;
+  -webkit-column-gap: 0;
+  column-gap: 0;
+}
+
+.cols div {
+  width: 120px;
+  min-height: 80px;
+  margin: 3px 5px;
+  background: #ccc;
+  display: inline-block;
+  padding: 0;
+  line-height: 0;
+  border: solid 10px #fff;
+}
+
+.relative-bg:hover .bg-red-500 {
+  opacity: 0.5;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  -o-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+/* Several different images */
+
+.parent:hover .child,
+.parent:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.parent:hover .child:before,
+.parent:focus .child:before {
+  display: block;
+}
+
+.parent:hover a,
+.parent:focus a {
+  display: block;
+}
+
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(251, 192, 104, 0.55);
+}
