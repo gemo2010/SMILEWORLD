@@ -47,7 +47,7 @@ export default function MenuDrawer({
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
             href="/services"
           >
-            Services/Treatments
+            {/* Services/Treatments */}
           </a>
           <a
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"

@@ -136,7 +136,7 @@ function Home() {
                 },
               }}
             >
-              CHECK OUT MORE ABOUT OUR SERVICES
+              CHECK OUT MORE ABOUT OUR SERVICES.
             </Button>
           </div>
         </div>

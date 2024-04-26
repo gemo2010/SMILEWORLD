@@ -40,9 +40,9 @@ function Header() {
             {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/booking">
               Booking
             </a> */}
-            {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/contact">
+            <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="https://wa.link/bmxzhg">
               Contact Us
-            </a> */}
+            </a>
           </div>
           <div className="flex flex-row items-center">
             <a href="https://www.instagram.com/worldsmilesco/" target="_blank"><InstagramIcon className="mx-2" /></a>
