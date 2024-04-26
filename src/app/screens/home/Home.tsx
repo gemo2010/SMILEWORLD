@@ -10,9 +10,9 @@ function Home() {
       <div className="bgimg-home pt-40 bg-black">
         <div className="flex justify-center flex-col items-center">
           <h1 className="text-white text-2xl text-center font-bold">
-            TRANSFORMING LIFES WITH
+          DESIGNING YOUR IDEAL SMILE
             <br />
-            TRILLION DOLLAR SMILES
+            REFLECTING YOUR ESSENCE. 
           </h1>
           <h3 className="text-white text-base sm:text-xl pt-8">
             Leaders in Cosmetic Dentistry Treatments
@@ -21,7 +21,7 @@ function Home() {
             ¡We are going to make sure that you can’t stop smiling from now on!
           </h3>
           <Button
-            href="/booking"
+            href="https://wa.link/bmxzhg" target="_blank;"
             className="bg-gradient-to-r from-[#8E6F40] via-[#fbc068] to-[#8E6F40] hover:scale-110 shadow-lg"
             sx={{
               color: "black",
@@ -40,7 +40,7 @@ function Home() {
         </div>
       </div>
       <div className="bg-white">
-        <div className="py-10 px-8 xl:px-40 flex flex-col md:flex-row items-center xl:items-start gap-10 xl:gap-28 pb-8">
+        {/* <div className="py-10 px-8 xl:px-40 flex flex-col md:flex-row items-center xl:items-start gap-10 xl:gap-28 pb-8">
           <div
             className="flex w-full md:w-[300px]"
             data-aos="fade-right"
@@ -96,7 +96,7 @@ function Home() {
               MORE ABOUT DR. MARIO
             </Button>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="bg-black py-12 px-8 xl:px-40">
         <div className="flex flex-col justify-center items-center">
@@ -150,10 +150,7 @@ function Home() {
             className="text-black font-medium text-center text-base pt-8 font-semibold"
             data-aos="fade-up"
           >
-            Meet the wonderful results of our dental treatments, with which we
-            are transforming lives by having a Billion Dollar Smile. Status,
-            quality, trust and professionalism make us the perfect allies to
-            have your new smile.
+Discover the wonderful results of our dental treatments, with which we are transforming lives every day. Our commitment to excellence and our extensive experience make us your best allies in achieving that smile you've always wanted. At our clinic, every smile is a testimony to status, quality, trust, and professionalism. We are dedicated to offering not only cutting-edge treatments but also a personalized experience that guarantees outstanding results. Trust us to take the next step towards a radiant and healthy smile.
           </p>
           <p
             className="text-black font-medium text-center text-base pt-6 font-semibold"
@@ -165,11 +162,11 @@ function Home() {
             innovative dental treatments, here are some of our success stories.
           </p>
           <div data-aos="fade-up" className="w-full flex justify-center">
-            <CarouselOne />
+            {/* <CarouselOne /> */}
           </div>
           <div data-aos="fade-up">
             <Button
-              href="/success-stories"
+              href="https://www.instagram.com/worldsmilesco/" target="_blank"
               className="bg-gradient-to-r from-[#8E6F40] via-[#fbc068] to-[#8E6F40] hover:scale-110 shadow-lg"
               sx={{
                 color: "black",
@@ -197,13 +194,13 @@ function Home() {
         <div className="flex justify-around flex-col sm:flex-row items-center gap-10 pt-12">
           <div className="flex flex-col items-center">
             <p className="text-center text-white font-semibold">
-              Monday to Friday 7:00 a.m. to 5:00 p.m. COT
+              Orlando, Florida.
             </p>
             <p className="text-center text-white font-semibold">
-              Contact us +1 7865994064
+              Contact us +1 7257122656
             </p>
             <p className="text-center text-white font-semibold">
-              info@smilesbymariomontoya.com
+              info@worldsmiles.com
             </p>
           </div>
           <div className="flex flex-col items-center">
@@ -222,7 +219,7 @@ function Home() {
         <div className="flex justify-center items-center flex-col">
           <div className="bg-white my-6 h-[1px] w-60" />
           <p className="text-center text-white font-semibold">
-            © Copyright – Smiles by Dr. Mario Montoya 2024
+            © Copyright – World Smile Design 2024
           </p>
         </div>
       </div>

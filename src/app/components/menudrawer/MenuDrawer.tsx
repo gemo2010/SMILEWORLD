@@ -23,8 +23,8 @@ export default function MenuDrawer({
         <div className="flex justify-between items-center px-4">
           <img
             className="w-[140px]"
-            src="https://smilesbymariomontoya.com/wp-content/uploads/2022/05/cropped-icon-smile-by-mario-montoya.png"
-            alt="logo"
+            // src="https://smilesbymariomontoya.com/wp-content/uploads/2022/05/cropped-icon-smile-by-mario-montoya.png"
+            // alt="logo"
           />
           <IconButton onClick={toggleMenuDrawer}>
             <CloseIcon sx={{ color: "black" }} />
@@ -41,7 +41,7 @@ export default function MenuDrawer({
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
             href="/doctor"
           >
-            Dr
+            {/* Dr */}
           </a>
           <a
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
@@ -53,17 +53,17 @@ export default function MenuDrawer({
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
             href="/success-stories"
           >
-            Success stories
+            {/* Success stories */}
           </a>
           <a
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
             href="/booking"
           >
-            Booking
+            {/* Booking */}
           </a>
           <a
             className="my-2 text-lg hover:text-[#C89952] duration-500 ease-in-out hover:text-xl"
-            href="/contact"
+            href="https://www.instagram.com/worldsmilesco/"
           >
             Contact Us
           </a>

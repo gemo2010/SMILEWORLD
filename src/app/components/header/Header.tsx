@@ -3,6 +3,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { TiktokIcon } from "../../assets/svg/TiktokIcon";
+import logosmile from "../../assets/img/logo-smile.png";
 
 function Header() {
   return (
@@ -15,34 +16,40 @@ function Header() {
       }}
     >
       <div className="flex justify-between items-center">
-        <a href="/">Dr</a>
+      <a href="/">
+          <img
+            className="w-[100px]"
+            src={logosmile}
+            alt="logo"
+          />
+        </a>
         <div className="flex flex-row gap-12">
           <div>
             <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/">
               Home
             </a>
-            <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/doctor">
+            {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/doctor">
               Dr
-            </a>
+            </a> */}
             <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/services">
               Services/Treatments
             </a>
-            <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/success-stories">
+            {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/success-stories">
               Success stories
-            </a>
-            <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/booking">
+            </a> */}
+            {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/booking">
               Booking
-            </a>
-            <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/contact">
+            </a> */}
+            {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/contact">
               Contact Us
-            </a>
+            </a> */}
           </div>
           <div className="flex flex-row items-center">
-            <InstagramIcon className="mx-2" />
-            <FacebookIcon className="mx-2" />
-            <YouTubeIcon className="mx-2" />
+            <a href="https://www.instagram.com/worldsmilesco/" target="_blank"><InstagramIcon className="mx-2" /></a>
+            {/* <FacebookIcon className="mx-2" /> */}
+            {/* <YouTubeIcon className="mx-2" /> */}
             <div className="mx-2">
-              <TiktokIcon />
+              {/* <TiktokIcon /> */}
             </div>
           </div>
         </div>
