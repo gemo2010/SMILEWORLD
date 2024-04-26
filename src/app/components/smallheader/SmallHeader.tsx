@@ -44,7 +44,7 @@ export default function SmallHeader() {
         </div>
         <div className="flex flex-row items-center">
             <InstagramIcon className="mx-2" />
-            <FacebookIcon className="mx-2" />
+            {/* <FacebookIcon className="mx-2" /> */}
             <YouTubeIcon className="mx-2" />
             <div className="mx-2">
               <TiktokIcon />

@@ -32,7 +32,7 @@ function Header() {
               Dr
             </a> */}
             <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/services">
-              Services/Treatments
+              {/* Services/Treatments */}
             </a>
             {/* <a className="mx-4 text-sm xl:text-[18px] font-semibold hover:text-[#fbc068] duration-500 ease-in-out hover:text-[18.5px]" href="/success-stories">
               Success stories

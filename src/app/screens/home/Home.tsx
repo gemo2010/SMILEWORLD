@@ -120,7 +120,7 @@ function Home() {
           </div>
           <div data-aos="fade-up w-full">
             <Button
-              href="/services"
+              href="https://www.instagram.com/worldsmilesco/"
               className="bg-gradient-to-r from-[#8E6F40] via-[#fbc068] to-[#8E6F40] hover:scale-110 shadow-lg"
               sx={{
                 color: "black",
